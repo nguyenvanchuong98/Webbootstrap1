@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.clear{
+	clear: both;
+}
+.menu{
+	position: fixed;
+	top:0;
+	z-index: 1;
+	width: 100%;
+	background-color: rgb(204,204,204,0.5);
+}
+.menu>.container{
+	line-height: 60px;
+}
+.menu a{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+a:hover{
+	color: orange;
+}
+.menu li{
+	padding: 0 20px;
+}
+.carousel-inner img{
+	width: 100%;
+	height: auto;
+}
+
+.col .anh{
+	width: 100%;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+table{
+	width: 100%;
+}
+tr{
+	height: 296.69px;
+}
+table tr td{
+	width: 33.3333%;
+	height: 100%;
+}
+table tr td img{
+	width: 100%;
+	height: auto;
+}
+
+.col-12{
+	padding: 0;
+	margin: 0;
+}
+.list-new .col{
+	padding: 0;
+	margin: 0;
+}
+.col-item-title{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+}
+.list-banner-title{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 30px 0;
+}
+.col-item-description{
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#footer{
+	text-align: left;
+	margin-top: 50px;
+	background-color: #252525;
+}
+.foot-title{
+	font-weight: bold;
+	line-height: 50px;
+	color: orange;
+	text-transform: uppercase;
+}
+.foot-list ul li{
+	list-style: none;
+	text-align: left;
+}
+.foot-list ul li a{
+	line-height: 25px;
+	color: #ccc;
+	font-size: 15px;
+}
+.foot-list ul li a:hover{
+	color: orange;
+	text-decoration: none;
+	padding-left: 6px;
+	transition: 0.5s;
+}
+#footer .container-fluid {
+	border-bottom: 0.5px solid #ccc;
+	padding: 30px 0;
+	border-top: 0.5px solid #ccc;
+}
+#footer .navbar-nav a{
+	color: white;
+	padding: 0 15px;
+}
+#footer .navbar-nav a:hover{
+	text-decoration: none;
+	color: orange;
+}
+#footer .nav-link{
+	border-right: 1px solid #ccc;
+}
+#footer .navbar-nav{
+	margin: 0 auto;
+}
